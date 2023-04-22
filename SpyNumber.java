@@ -1,12 +1,13 @@
-import java.util.Scanner;  
+//import java.util.Scanner;  
 public class SpyNumber  
 {  
 public static void main(String args[])  
 {   
 int num, product=1, sum=0, lastdigit;  
-Scanner sc = new Scanner(System.in);  
-System.out.print("Enter the number to check: " );  
-num=sc.nextInt();  
+//Scanner sc = new Scanner(System.in);  
+//System.out.print("Enter the number to check: " );  
+//num=sc.nextInt();
+num=143;  
 while(num>0)  
 {  
 lastdigit=num%10;  
